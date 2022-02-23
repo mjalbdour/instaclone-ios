@@ -22,7 +22,7 @@ struct User {
     let accountType: AccountType
     let country: String
 
-    init(id: Int, name: String, gender: String,
+    init(id: Int, name: String, gender: String, // imagine reduced size
          dateOfBirth: Date, active: Bool, locale: String,
          mobileNumber: String, username: String, email: String,
          bio: String, verified: String, accountType: User.AccountType,
