@@ -151,7 +151,6 @@ struct HelpersSection: View {
     var body: some View {
         HStack(spacing: 3) {
             Button {
-                // action
             } label: {
                 Text("Edit Profile")
                     .font(.callout)
@@ -160,12 +159,10 @@ struct HelpersSection: View {
             .background(.black)
             .foregroundColor(.white)
             .padding(.vertical, 10.0)
-            //                .padding(.horizontal, 1)
             .frame(minWidth: 0, maxWidth: .infinity)
             .border(.white.opacity(0.3), width: 1)
             .cornerRadius(2)
             Button {
-                // action
             } label: {
                 Text("Ad Tools")
                     .font(.callout)
@@ -174,12 +171,10 @@ struct HelpersSection: View {
             .background(.black)
             .foregroundColor(.white)
             .padding(.vertical, 10)
-            //                .padding(.horizontal, 1)
             .frame(minWidth: 0, maxWidth: .infinity)
             .border(.white.opacity(0.3), width: 1)
             .cornerRadius(2)
             Button {
-                // action
             } label: {
                 Text("Insights")
                     .font(.callout)
@@ -188,7 +183,6 @@ struct HelpersSection: View {
             .background(.black)
             .foregroundColor(.white)
             .padding(.vertical, 10)
-            //                .padding(.horizontal, 1)
             .frame(minWidth: 0, maxWidth: .infinity)
             .border(.white.opacity(0.3), width: 1)
             .cornerRadius(2)
@@ -243,17 +237,17 @@ struct TabBar: View {
                     .scaleEffect(0.4)
                     .tint(.white)
             }
-            
+
             .overlay( selection == 0 ?
                       Rectangle()
                         .frame(width: 100, height: 3) : nil, alignment: .bottom)
-            
+
             Spacer()
             Button {
                 withAnimation(.linear) {
                     selection = 1
                 }
-                
+
             } label: {
                 Image(systemName: "person.crop.rectangle")
                     .resizable()
