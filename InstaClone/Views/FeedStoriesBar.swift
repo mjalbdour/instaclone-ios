@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct FeedStoriesBar: View {
+    @State var seen = false
+    @State var unseen = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal) {
+            HStack(spacing: 15) {
+                StoryInFeedStoriesBarView(seen: $unseen)
+                ForEach(0..<10, id: \.self) { _ in
+                    StoryInFeedStoriesBarView(seen: $seen)
+                }
+            }
+        }
     }
 }
 
 struct FeedStoriesBar_Previews: PreviewProvider {
     static var previews: some View {
         FeedStoriesBar()
+            .preferredColorScheme(.dark)
     }
 }
