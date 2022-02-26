@@ -18,13 +18,19 @@
   </p>
 </p>
 <hr>
-<p align="row">
-  *Images and gifs coming soon*
-<!-- <img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
-<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" > -->
-</p>
-<hr>
-
+<h2>Current Views</h2>
+<div>
+    <figure>
+        <img width="300" height="auto" alt="post-in-feed-view" src="https://user-images.githubusercontent.com/35423900/155841700-91fb1219-2b19-4d78-9675-231b85e4dcac.png">
+        <figcaption>Post in Feed View</figcaption>
+    </figure>
+    <hr>
+    <figure>
+        <img width="300" height="auto" alt="personal-profile-view#1" src="https://user-images.githubusercontent.com/35423900/155841838-1f1eece4-316c-4810-b6ed-ab3c0c77cf85.png">
+        <figcaption>Personal Profile View</figcaption>
+    </figure>
+</div>
+    
 ## Features
 
 - [ ] Feed
