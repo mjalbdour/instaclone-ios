@@ -29,6 +29,11 @@
         <img width="300" height="auto" alt="personal-profile-view#1" src="https://user-images.githubusercontent.com/35423900/155841838-1f1eece4-316c-4810-b6ed-ab3c0c77cf85.png">
         <figcaption>Personal Profile View</figcaption>
     </figure>
+    <hr>
+        <figure>
+            <img width="300" height="auto" alt="comment-view" src="https://user-images.githubusercontent.com/35423900/155845855-2396e079-e426-492c-8895-54051e758118.png">
+        <figcaption>Comment View</figcaption>
+    </figure>
 </div>
     
 ## Features
