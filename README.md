@@ -34,6 +34,11 @@
             <img width="300" height="auto" alt="comment-view" src="https://user-images.githubusercontent.com/35423900/155845855-2396e079-e426-492c-8895-54051e758118.png">
         <figcaption>Comment View</figcaption>
     </figure>
+        <hr>
+        <figure>
+<img width="300" height="auto" alt="feed-stories-bar-view" src="https://user-images.githubusercontent.com/35423900/155848447-bf4ea3d7-8b1c-4c96-adc9-d6707b21a246.png">
+        <figcaption>Feed Stories Bar View</figcaption>
+    </figure>
 </div>
     
 ## Features
