@@ -47,7 +47,6 @@ struct Header: View {
                 .scaledToFit()
                 .scaleEffect(0.1)
             Button {
-                // action
             } label: {
                 Text("Follow")
             }
@@ -92,7 +91,7 @@ struct Footer: View {
                     .resizable()
                     .scaledToFit()
                     .frame(height: 25)
-                
+
                 Image(systemName: "bubble.right")
                     .resizable()
                     .scaledToFit()
@@ -108,27 +107,27 @@ struct Footer: View {
                     .resizable()
                     .foregroundColor(.blue)
                     .scaledToFit()
-                    .frame(width: 6,height: 6)
+                    .frame(width: 6, height: 6)
                 Image(systemName: "circle.fill")
                     .resizable()
                     .foregroundColor(.gray)
                     .scaledToFit()
-                    .frame(width: 6,height: 6)
+                    .frame(width: 6, height: 6)
                 Image(systemName: "circle.fill")
                     .resizable()
                     .foregroundColor(.gray)
                     .scaledToFit()
-                    .frame(width: 6,height: 6)
+                    .frame(width: 6, height: 6)
                 Image(systemName: "circle.fill")
                     .resizable()
                     .foregroundColor(.gray)
                     .scaledToFit()
-                    .frame(width: 4,height: 4)
+                    .frame(width: 4, height: 4)
                 Image(systemName: "circle.fill")
                     .resizable()
                     .foregroundColor(.gray)
                     .scaledToFit()
-                    .frame(width: 2,height: 2)
+                    .frame(width: 2, height: 2)
             }
             Spacer()
             Text("")
