@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CommentView: View {
     var body: some View {
-        ScrollView {
             HStack(alignment: .top, spacing: 9
             ) {
                 UserPhoto()
@@ -22,7 +21,6 @@ struct CommentView: View {
             }
             .frame(minHeight: 40)
         .padding()
-        }
     }
 }
 
