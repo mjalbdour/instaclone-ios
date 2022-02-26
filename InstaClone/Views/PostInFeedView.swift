@@ -13,6 +13,7 @@ struct PostInFeedView: View {
             Header()
             Content()
             Footer()
+            Likes()
         }
     }
 }
@@ -136,6 +137,23 @@ struct Footer: View {
                 .resizable()
                 .frame(width: 25, height: 25)
         }
+        .frame(height: 35)
+        .padding(.horizontal)
+    }
+}
+
+struct Likes: View {
+    var body: some View {
+        HStack(spacing: 3) {
+            Text("Liked by")
+            Text("some_username")
+                .bold()
+            Text("and")
+            Text("others")
+                .bold()
+            Spacer()
+        }
+        .font(.subheadline)
         .frame(height: 35)
         .padding(.horizontal)
     }
