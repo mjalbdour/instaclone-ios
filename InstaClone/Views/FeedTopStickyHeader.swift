@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FeedTopStickyHeader: View {
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         HStack(alignment: .center, spacing: 5) {
             HomeMenu()
@@ -71,7 +72,9 @@ struct FeedTopStickyHeader: View {
                     )
             }
         }
+        .padding(.top, 50)
         .padding()
+        .background(colorScheme == .light ? .white : .black)
     }
 }
 
