@@ -77,7 +77,7 @@ struct PostInFeedView: View {
                     }
                 }
             }
-            .padding(.horizontal)
+            .padding([.horizontal, .bottom])
         }
     }
 }
