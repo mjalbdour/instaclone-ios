@@ -21,7 +21,7 @@
 <h2>Current Views</h2>
 <div>
     <figure>
-        <img width="300" height="auto" alt="post-in-feed-view" src="https://user-images.githubusercontent.com/35423900/155841700-91fb1219-2b19-4d78-9675-231b85e4dcac.png">
+        <img width="300" height="auto" alt="post-in-feed-view" src="https://user-images.githubusercontent.com/35423900/155873882-d1c7e244-319b-4a74-b2cf-f3cd57f3382a.png">
         <figcaption>Post in Feed View</figcaption>
     </figure>
     <hr>
