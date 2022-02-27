@@ -19,6 +19,7 @@
 		8C986C0927C5681000E2DEBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C986C0827C5681000E2DEBC /* ContentView.swift */; };
 		8C986C0B27C5681100E2DEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C986C0A27C5681100E2DEBC /* Assets.xcassets */; };
 		8C986C0E27C5681100E2DEBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C986C0D27C5681100E2DEBC /* Preview Assets.xcassets */; };
+		8CBDB23227CB713A00AABB69 /* FeedTopStickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDB23127CB713900AABB69 /* FeedTopStickyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8C986C0827C5681000E2DEBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C986C0A27C5681100E2DEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C986C0D27C5681100E2DEBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CBDB23127CB713900AABB69 /* FeedTopStickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTopStickyHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				8C5A1F8827CA51D700829C51 /* CommentView.swift */,
 				8C5A1F8A27CA70D400829C51 /* FeedStoriesBar.swift */,
 				8C5A1F8C27CA760400829C51 /* StoryInFeedStoriesBarView.swift */,
+				8CBDB23127CB713900AABB69 /* FeedTopStickyHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				8C986C0727C5681000E2DEBC /* InstaCloneApp.swift in Sources */,
 				8C5A1F8B27CA70D400829C51 /* FeedStoriesBar.swift in Sources */,
 				8C5A1F8D27CA760400829C51 /* StoryInFeedStoriesBarView.swift in Sources */,
+				8CBDB23227CB713A00AABB69 /* FeedTopStickyHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
