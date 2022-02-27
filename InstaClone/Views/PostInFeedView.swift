@@ -15,11 +15,21 @@ struct PostInFeedView: View {
             Footer()
             Likes()
             VStack(alignment: .leading, spacing: 0) {
-                Text("some_username")
-                    .bold()
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
-                    .lineLimit(1)
-                    .truncationMode(.tail)
+                Button {
+                    // TODO: Implement go to user profile
+                } label: {
+                    Text("some_username")
+                        .bold()
+                        .tint(.white)
+                }
+                Button {
+                    // TODO: Implement go to comments view
+                } label: {
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+                        .lineLimit(1)
+                        .truncationMode(.tail)
+                        .tint(.white)
+                }
             }
             .padding(.horizontal)
         }
