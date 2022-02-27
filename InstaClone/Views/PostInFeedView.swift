@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PostInFeedView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Header()
             Content()
             Footer()
@@ -32,6 +32,16 @@ struct PostInFeedView: View {
                 }
             }
             .padding(.horizontal)
+            Button {
+                // TODO: Implement go to comments view
+            } label: {
+                Text("View all \("3,126") comments")
+                    .font(.subheadline)
+                    .bold()
+                    .tint(.secondary)
+            }
+            .padding(.horizontal)
+            .padding(.top, 1)
         }
     }
 }
