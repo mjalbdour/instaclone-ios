@@ -19,6 +19,11 @@
 </p>
 <hr>
 <h2>Current Views</h2>
+
+Basic Feed View
+
+https://user-images.githubusercontent.com/35423900/155884349-a5281493-4308-4cc2-b28d-dc1835a63a4b.mp4
+
 <div>
     <figure>
         <img width="300" height="auto" alt="post-in-feed-view" src="https://user-images.githubusercontent.com/35423900/155873882-d1c7e244-319b-4a74-b2cf-f3cd57f3382a.png">
