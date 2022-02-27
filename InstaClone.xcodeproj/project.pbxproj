@@ -20,6 +20,7 @@
 		8C986C0B27C5681100E2DEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C986C0A27C5681100E2DEBC /* Assets.xcassets */; };
 		8C986C0E27C5681100E2DEBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C986C0D27C5681100E2DEBC /* Preview Assets.xcassets */; };
 		8CBDB23227CB713A00AABB69 /* FeedTopStickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDB23127CB713900AABB69 /* FeedTopStickyHeader.swift */; };
+		8CBDB23427CB898D00AABB69 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBDB23327CB898D00AABB69 /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8C986C0A27C5681100E2DEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C986C0D27C5681100E2DEBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CBDB23127CB713900AABB69 /* FeedTopStickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTopStickyHeader.swift; sourceTree = "<group>"; };
+		8CBDB23327CB898D00AABB69 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8C5A1F8A27CA70D400829C51 /* FeedStoriesBar.swift */,
 				8C5A1F8C27CA760400829C51 /* StoryInFeedStoriesBarView.swift */,
 				8CBDB23127CB713900AABB69 /* FeedTopStickyHeader.swift */,
+				8CBDB23327CB898D00AABB69 /* FeedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBDB23427CB898D00AABB69 /* FeedView.swift in Sources */,
 				8C5A1F8927CA51D700829C51 /* CommentView.swift in Sources */,
 				8C5A1F8727C9141600829C51 /* PostInFeedView.swift in Sources */,
 				8C986C0927C5681000E2DEBC /* ContentView.swift in Sources */,
