@@ -18,9 +18,9 @@ struct PostInFeedView: View {
                 Button {
                     // TODO: Implement go to user profile
                 } label: {
-                    Text("some_username")
+                    Text("mr_supremo")
                         .bold()
-                        .tint(.white)
+                        .tint(.primary)
                 }
                 Button {
                     // TODO: Implement go to comments view
@@ -28,7 +28,7 @@ struct PostInFeedView: View {
                     Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
                         .lineLimit(1)
                         .truncationMode(.tail)
-                        .tint(.white)
+                        .tint(.primary)
                 }
             }
             .padding(.horizontal)
@@ -42,14 +42,53 @@ struct PostInFeedView: View {
             }
             .padding(.horizontal)
             .padding(.top, 1)
+            HStack {
+                HStack {
+                    Circle()
+                        .foregroundColor(.gray)
+                        .frame(width: 24,height:24)
+                        .overlay(Image(systemName: "person")
+                                    .foregroundColor(.white))
+                    Button {
+                        // TODO: Implement comment sheet form view.
+                    } label: {
+                        Text("Add a comment")
+                            .font(.subheadline)
+                            .tint(.secondary)
+                    }
+                }
+                Spacer()
+                HStack {
+                    Button {
+                        // TODO: Implement add heart emoji to comment sheet form field view.
+                    } label: {
+                        Text("❤️")
+                    }
+                    Button {
+                        // TODO: Implement add raising hands emoji to comment sheet form field view.
+                    } label: {
+                        Text("🙌")
+                    }
+                    Button {
+                        // TODO: Implement add heart to comment sheet form field view.
+                    } label: {
+                        Text("⊕")
+                            .tint(.secondary)
+                    }
+                }
+            }
+            .padding(.horizontal)
         }
     }
 }
 
 struct PostInFeedView_Previews: PreviewProvider {
     static var previews: some View {
-        PostInFeedView()
-            .preferredColorScheme(.dark)
+        Group {
+            PostInFeedView()
+            PostInFeedView()
+                .preferredColorScheme(.dark)
+        }
     }
 }
 
@@ -65,7 +104,7 @@ struct Header: View {
                         .scaleEffect(0.85)
                 )
             VStack(alignment: .leading) {
-                Text("mr supremo")
+                Text("mr_supremo")
                     .bold()
                 Text("London")
                     .font(.callout)
@@ -80,6 +119,7 @@ struct Header: View {
             }
             Spacer()
             Image(systemName: "ellipsis")
+                .padding(.horizontal)
         }
         .frame(height: 40)
     }
@@ -99,6 +139,7 @@ struct Content: View {
                         .offset(x: -18, y: 18)
                         .overlay(
                             Text("1/10")
+                                .foregroundColor(.white)
                                 .font(.caption)
                                 .offset(x: -18, y: 18)
                         ), alignment: .topTrailing)
@@ -173,7 +214,7 @@ struct Likes: View {
     var body: some View {
         HStack(spacing: 3) {
             Text("Liked by")
-            Text("some_username")
+            Text("another_username")
                 .bold()
             Text("and")
             Text("others")
