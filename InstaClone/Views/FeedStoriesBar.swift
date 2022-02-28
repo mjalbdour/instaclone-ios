@@ -11,7 +11,7 @@ struct FeedStoriesBar: View {
     @State var seen = false
     @State var unseen = true
     var body: some View {
-        ScrollView(.horizontal) {
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 15) {
                 StoryInFeedStoriesBarView(seen: $unseen)
                 ForEach(0..<10, id: \.self) { _ in
