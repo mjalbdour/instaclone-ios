@@ -11,6 +11,9 @@ struct FeedView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack {
+                FeedStoriesBar()
+                    .padding(.horizontal, 5)
+                    .offset(y: 75)
                 ForEach(0..<30, id: \.self) { index in
                     PostInFeedView()
                         .padding(.bottom, index == 29 ? 90 : 0)

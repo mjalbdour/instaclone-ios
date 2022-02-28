@@ -22,7 +22,10 @@
 
 Basic Feed View
 
-https://user-images.githubusercontent.com/35423900/155884349-a5281493-4308-4cc2-b28d-dc1835a63a4b.mp4
+
+
+https://user-images.githubusercontent.com/35423900/155970129-193fec56-b500-4707-a5a1-b1ffbbd5bbb3.mp4
+
 
 <div>
     <figure>
